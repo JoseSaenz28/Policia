@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #3267c9;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.gov {
+    height: 43px;
+}
+
+.top {
+    background-color: #f9f9f9;
+    display: flex;
+    color: #444;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.escudo {
+    height: 70px;
+    margin-left: 80px;
+}
+
+.buscador {
+    margin-right: 100px;
+}
+
+.buscadorforma {
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+}
+
+.fondomenu {
+    background-color: #eee;
+    border-bottom: 3px rgb(10, 99, 10) solid;
+    position: relative;
+    z-index: 10;
+}
+
+.menu {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0 140px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li:hover > .submenu {
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #444;
+    padding: 40px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: rgb(10, 99, 10);
+    color: #f9f9f9;
+}
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    display: none;
+    background-color: #eee;
+    z-index: 10;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #444;
+    padding: 10px 15px;
+}
+
+.submenu a:hover {
+    color: #f9f9f9;
+}
+
+.fondomenu2 {
+    background-color: #ffffff;
+    margin-top: 20px;
+    color: #065;
+    font-size: 14px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fondomenu2 a {
+    color: #065;
+}
+
+.fondomenu2 .as {
+    color: #777;
+}
+.participa {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.participa h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #006241;
+    width: 400px;
+    margin: 0 auto 40px auto;
+}
+
+.lista-participa {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-participa li {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.lista-participa .numero {
+    background-color: #006241;
+    color: white;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.lista-participa a {
+    color: #001b4c;
+    text-decoration: underline;
+}
+
+.lista-participa a:hover {
+    text-decoration: none;
+    color: #004080;
+}
